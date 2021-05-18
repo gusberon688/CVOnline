@@ -51,7 +51,7 @@ background: linear-gradient(to right, #48b1bf, #06beb6);
     margin-left: 10%;
 }
 
-/*animacion*/
+/*animacion
 
 .animated-text {
     color: #fff;
@@ -63,7 +63,7 @@ background: linear-gradient(to right, #48b1bf, #06beb6);
     height: 60px;
     overflow: hidden;
 }
-
+*/
 .line {
     text-transform: uppercase;
     text-align: center;
