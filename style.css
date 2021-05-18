@@ -11,7 +11,8 @@ h1 {
 }
 
 body {
-    background-color: #000000;
+background: linear-gradient(to right, #48b1bf, #06beb6);
+
 }
 
 .navegacion {
@@ -41,7 +42,7 @@ body {
 }
 
 .menu li a:hover {
-    color: rgb(250, 0, 83);
+    color:darkslategray;
     transition: all .3s;
 }
 
@@ -171,7 +172,6 @@ body>div.servicios>div>img:nth-child(6) {
 }
 
 .contactBody {
-    background-color: black;
     background-size: cover;
     background-attachment: fixed;
     height: 700px;
@@ -324,4 +324,8 @@ body>div.servicios>div.wrapper {
         opacity: 0.8;
         width: 50%;
     }
+}
+
+#carroussel{
+    margin: 0 auto;
 }
