@@ -19,89 +19,12 @@ background: linear-gradient(to right, #48b1bf, #06beb6);
 
 }
 
-.navegacion {
-    width: 70%;
-    max-width: 1000px;
-    margin: 5% auto;
-    background: rgb(231, 231, 231);
-    border-radius: 20px;
-}
-
-.navegacion ul {
-    list-style: none;
-}
-
-.menu>li {
-    position: relative;
-    display: inline-block;
-}
-
-.menu>li>a {
-    display: block;
-    padding: 15px 20px;
-    color: #353535;
-    font-family: Impact, sans-serif;
-    text-decoration: none;
-    display: flex;
-}
-
-.menu li a:hover {
-    color:darkslategray;
-    transition: all .3s;
-}
-
 .foto {
-    width: 550px;
+    width: 706px;
     margin-left: 10%;
-}
+    box-shadow: rgb(0, 0, 0) 10px 13px 37px;
+   }
 
-/*animacion
-
-.animated-text {
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: transparent padding: 0 40px;
-    height: 60px;
-    overflow: hidden;
-}
-*/
-.line {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 30px;
-    line-height: 60px;
-}
-
-.line:first-child {
-    animation: anim 12s infinite;
-}
-
-@keyframes anim {
-    0% {
-        margin-top: 0;
-    }
-    16% {
-        margin-top: -60px;
-    }
-    33% {
-        margin-top: -120px;
-    }
-    50% {
-        margin-top: -180px;
-    }
-    66% {
-        margin-top: -120px;
-    }
-    82% {
-        margin-top: -60px;
-    }
-    100% {
-        margin-top: 0;
-    }
-}
 
 .soy {
     background-color: transparent;
@@ -121,38 +44,47 @@ p {
     color:rgba(0, 0, 0, 0.705);
 }
 
+
 body>button {
+    background-color: #4c8585;
+    box-shadow: 50px 13px 37px #000;
     margin-left: 45%;
-    background-color: transparent;
+    border: color white 3px;
+    
 }
 
 body>button>a {
     text-decoration: none;
     padding: 30px 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: wheat;
+    color: black;
     font-size: 20px;
 }
 
-body>div.servicios>button {
-    margin-top: 50px;
-    margin-left: 45%;
+body>button:hover {
     background-color: transparent;
-    margin-bottom: 300px;
 }
 
-body>div.servicios>button a {
-    text-decoration: none;
-    padding: 30px 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: wheat;
-    font-size: 20px;
+body>button>a:hover {
+    color:rgb(0, 0, 0)
 }
+
+
+
 
 #T1 {
     font-size: 30px;
+    margin-left: 45%;
+    color:rgba(0, 0, 0, 0.623);
+}
+
+#T2 {
+    font-size: 30px;
     margin-left: 40%;
     color:rgba(0, 0, 0, 0.623);
+}
+body > div.servicios {
+    margin-bottom: 50PX;
 }
 
 body>div.servicios>div>img {
@@ -161,6 +93,7 @@ body>div.servicios>div>img {
     float: left;
     width: 480px;
 }
+
 
 body > div.soy > p {
 
@@ -179,6 +112,35 @@ body>div.servicios>div>img:nth-child(6) {
     margin-right: 7%;
     float: right;
     width: 480px;
+}
+
+body > div.servicios > div.T1 > img:nth-child(12){
+    margin-bottom: 50px;
+}
+
+
+body>div.servicios>button{
+    float: none;
+    background-color: #4c8585;
+    box-shadow: 50px 13px 37px #000;
+    margin-left: 45%;
+    border: color white 3px;
+}
+
+body>div.servicios>button a {
+    text-decoration: none;
+    padding: 30px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+body>div.servicios>button:hover {
+    background-color: transparent;
+}
+
+body>div.servicios>button a:hover{
+    color:rgb(0, 0, 0);
 }
 
 .contactBody {
