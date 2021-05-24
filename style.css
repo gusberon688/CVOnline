@@ -3,9 +3,13 @@
     padding: 0%;
 }
 
+#nombre{
+    margin-left: 10%;
+}
+
 h1 {
     color:rgba(0, 0, 0, 0.623) ;
-    margin-left: 10%;
+    margin-left: auto;
     font-size: 50px;
     margin-bottom: 50px;
   
@@ -46,8 +50,8 @@ p {
 
 
 body>button {
-    background-color: #4c8585;
-    box-shadow: 50px 13px 37px #000;
+    
+    background-color: transparent;
     margin-left: 45%;
     border: color white 3px;
     
@@ -62,15 +66,13 @@ body>button>a {
 }
 
 body>button:hover {
-    background-color: transparent;
+    background-color: #4c8585;
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
 }
 
 body>button>a:hover {
     color:rgb(0, 0, 0)
 }
-
-
-
 
 #T1 {
     font-size: 30px;
@@ -146,7 +148,7 @@ body>div.servicios>button a:hover{
 .contactBody {
     background-size: cover;
     background-attachment: fixed;
-    height: 700px;
+    height: 500px;
 }
 
 .title {
@@ -162,7 +164,7 @@ body>div.servicios>button a:hover{
     font-size: 20px;
 }
 
-/* This will center the form */
+/* centrado del formulario */
 
 .wrapper {
     width: 80%;
@@ -170,7 +172,7 @@ body>div.servicios>button a:hover{
     margin: 5% auto 0 auto;
 }
 
-/* form animation starts */
+/* animacion del formulario */
 
 .form {
     background: #EBEBEB;
@@ -185,8 +187,8 @@ body>div.servicios>button a:hover{
 }
 
 .name {
-    background-color: #DF1B76;
-    border-bottom: 5px solid #B2175F;
+    background-color: rgb(224, 163, 116);
+    border-bottom: 5px solid rgb(195, 35, 17);
     color: white;
     width: 300px;
 }
@@ -197,28 +199,28 @@ body>div.servicios>button a:hover{
 }
 
 .name:hover {
-    background-color: #DF1B76;
-    border-bottom: 5px solid #B2175F;
+    background-color: #2DD7BB;
+    border-bottom: 5px solid #2BB09A;
     height: 30px;
     width: 400px;
 }
 
 .email {
-    background-color: #7239C1;
-    border-bottom: 5px solid #502789;
+    background-color: rgb(224, 163, 116);
+    border-bottom: 5px solid rgb(195, 35, 17);
     height: 50px;
     width: 300px;
 }
 
 .email:hover {
-    background-color: #7239C1;
-    border-bottom: 5px solid #502789;
+    background-color: #2DD7BB;
+    border-bottom: 5px solid #2BB09A;
     height: 30px;
     width: 380px;
 }
 
 .message {
-    background-color: rgb(230, 108, 15);
+    background-color: rgb(224, 163, 116);
     border-bottom: 5px solid rgb(195, 35, 17);
     overflow: hidden;
     height: 100px;
@@ -232,19 +234,16 @@ body>div.servicios>button a:hover{
     width: 370px;
 }
 
-.submit {
+/*  .submit {
     border-radius: 5px;
     padding: 10px;
     background-color: #2DD7BB;
     border: none;
     border-bottom: 5px solid #CB64B2;
     transform: translateY(-120px);
-}
+}  */
 
-.submit:hover {
-    border-bottom: 5px solid #CB64B2;
-    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
-}
+
 
 .entry {
     display: block;
@@ -273,12 +272,23 @@ body>div.servicios>button a:hover{
     padding: 10px;
     width: 150px;
     color: white;
-    background-color: #EE78D1;
+    background-color: #4b6d5b;
     border: none;
-    border-bottom: 5px solid #CB64B2;
-    margin-top: 150px;
+    /* border-bottom: 5px solid #CB64B2; */
+    margin-top: 60px;
+} 
+.submit:hover { 
+    background-color: #2DD7BB;
+    /* border-bottom: 5px solid #2BB09A; */
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+
 }
 
+/* .submit:hover {
+    border-bottom: 5px solid #CB64B2;
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+
+} */
 body>div.servicios>div.wrapper {
     margin-bottom: 200px;
 }
