@@ -19,7 +19,7 @@ section{
 }
 
 body {
-background: linear-gradient(to right, #48b1bf, #06beb6);
+background: linear-gradient(to right, #5dc2cf, #07a79f);
 
 }
 
@@ -34,7 +34,7 @@ background: linear-gradient(to right, #48b1bf, #06beb6);
     background-color: transparent;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 10%;
+    padding: 5%;
     border-radius: 20px;
 }
 
@@ -76,25 +76,36 @@ body>button>a:hover {
 
 #T1 {
     font-size: 30px;
-    margin-left: 45%;
+    /* margin-left: 40%; */
+    text-align: center;
     color:rgba(0, 0, 0, 0.623);
 }
 
 #T2 {
     font-size: 30px;
-    margin-left: 40%;
+    /* margin-left: 40%; */
+    text-align: center;
     color:rgba(0, 0, 0, 0.623);
 }
-body > div.servicios {
+/* body > div.servicios {
     margin-bottom: 50PX;
-}
+} */
 
-body>div.servicios>div>img {
+/* body>div.servicios>div>img {
     margin-top: 50px;
     margin-left: 10%;
     float: left;
     width: 480px;
+ } */
+
+body>div.servicios>div>img {
+    margin-top: 50px;
+    margin-left: 3%;
+    margin-right: 3%;
+    float: left;
+    width: 44%;
 }
+
 
 
 body > div.soy > p {
@@ -103,7 +114,17 @@ body > div.soy > p {
 }
 
 
-body>div.servicios>div>img:nth-child(5) {
+body > div.servicios > div > img:nth-child(10){
+    margin-bottom: 50px;
+}
+
+
+/* body > div.servicios > div > img:nth-child(13){
+    margin-bottom: 50px;
+} */
+
+
+/* body>div.servicios>div>img:nth-child(5) {
     margin-right: 7%;
     float: right;
     width: 480px;
@@ -114,11 +135,12 @@ body>div.servicios>div>img:nth-child(6) {
     margin-right: 7%;
     float: right;
     width: 480px;
-}
+} */
 
-body > div.servicios > div.T1 > img:nth-child(12){
+
+/* body > div.servicios > div.T1 > img:nth-child(12){
     margin-bottom: 50px;
-}
+} */
 
 
 body>div.servicios>button{
@@ -187,14 +209,13 @@ body>div.servicios>button a:hover{
 }
 
 .name {
-    background-color: rgb(224, 163, 116);
-    border-bottom: 5px solid rgb(195, 35, 17);
+    background-color:rgb(166, 221, 212);
     color: white;
     width: 300px;
 }
 
 ::-webkit-input-placeholder {
-    color: white;
+    color:rgba(0, 0, 0, 0.623);
     font-size: 20px;
 }
 
@@ -206,8 +227,7 @@ body>div.servicios>button a:hover{
 }
 
 .email {
-    background-color: rgb(224, 163, 116);
-    border-bottom: 5px solid rgb(195, 35, 17);
+    background-color:rgb(166, 221, 212);
     height: 50px;
     width: 300px;
 }
@@ -220,8 +240,7 @@ body>div.servicios>button a:hover{
 }
 
 .message {
-    background-color: rgb(224, 163, 116);
-    border-bottom: 5px solid rgb(195, 35, 17);
+    background-color:rgb(166, 221, 212);
     overflow: hidden;
     height: 100px;
     width: 300px;
@@ -252,12 +271,12 @@ body>div.servicios>button a:hover{
     border-radius: 5px;
     border: none;
     transition: all 0.5s ease 0s;
-    box-shadow: 0px 0px 25px 2px #AAA;
+    box-shadow: 0px 0px 25px 2px gray;
 }
 
 /* Shadow to make it look like form is floating */
 
-.shadow {
+/* .shadow {
     box-shadow: 0px 0px 60px 5px #AAA;
     opacity: 0.5;
     border-radius: 100px;
@@ -265,20 +284,21 @@ body>div.servicios>button a:hover{
     margin: 50px auto 0 auto;
     padding: 0 20px;
     animation: shadow 1.5s infinite;
-}
+} */
 
 .submit {
     border-radius: 5px;
     padding: 10px;
     width: 150px;
     color: white;
-    background-color: #4b6d5b;
+    background-color: #75908a;
     border: none;
     /* border-bottom: 5px solid #CB64B2; */
     margin-top: 60px;
 } 
 .submit:hover { 
     background-color: #2DD7BB;
+    color:black;
     /* border-bottom: 5px solid #2BB09A; */
     box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
 
