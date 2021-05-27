@@ -55,13 +55,20 @@ body>button {
     background-color: #75908a;
     border: none;
     margin-top: 40px;
+
+    /* height:20px;  */
+    width:150px; 
+    margin: -20px -75px; 
+    position:relative;
+    top:50%; 
+    left:50%;
 }
 
 body>button>a {
     text-decoration: none;
     padding: 30px 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: rgba(0, 0, 0, 0.712);
     font-size: 20px;
 }
 
@@ -74,18 +81,24 @@ body>button>a:hover {
     color: rgb(0, 0, 0)
 }
 
-#T1, #T2 {
+#T1 {
     font-size: 30px;
     text-align: center;
     color: rgba(0, 0, 0, 0.623);
 }
 
-body>div.servicios>div>img {
+body > div.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body > div.container > img {
     margin-top: 50px;
     margin-left: 3%;
     margin-right: 3%;
-    float: left;
-    width: 44%;
+    float:none;
+    width: 43%;
 }
 
 body>div.soy>p {
