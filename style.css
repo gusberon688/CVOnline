@@ -3,6 +3,84 @@
     padding: 0%;
 }
 
+/* aca estan los botones animados de la barra de navegacion*/
+
+:root {
+    --facebook: #3b5999;
+    --whatsapp: #00bb2d;
+    --instagram: #de1b85;
+    --twitter: #00acee;
+    --telegram: #0088cc;
+}
+
+#navbarText>div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 0;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#navbarText>div>ul>li {
+    display: inline-block;
+    /* margin: 0 5px; */
+    width: 50px;
+    height: 50 px;
+    text-align: center;
+}
+
+#navbarText>div>ul {
+    margin-bottom: 0%;
+}
+
+#navbarText>div>ul>li>a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding: 0 10px;
+    background-color: rgb(175, 175, 175);
+    color: white;
+    line-height: 35px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px gainsboro;
+    transition: .2s;
+    border-radius: 50%;
+    
+}
+
+/* #navbarText>div>ul:hover>li>a {
+    filter: blur(2px);
+} */
+
+#navbarText>div>ul>li>a:hover {
+    transform: translate(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 4);
+    filter: none;
+}
+
+#navbarText>div>ul>li>.facebook:hover {
+    background-color: var(--facebook);
+}
+
+#navbarText>div>ul>li>.instagram:hover {
+    background-color: var(--instagram);
+}
+
+#navbarText>div>ul>li>.twitter:hover {
+    background-color: var(--twitter);
+}
+
+#navbarText>div>ul>li>.telegram:hover {
+    background-color: var(--telegram);
+}
+
+#navbarText>div>ul>li>.whatsapp:hover {
+    background-color: var(--whatsapp);
+}
+
 #nombre {
     margin-left: 10%;
 }
@@ -55,13 +133,12 @@ body>button {
     background-color: #75908a;
     border: none;
     margin-top: 40px;
-
     /* height:20px;  */
-    width:150px; 
-    margin: -20px -75px; 
-    position:relative;
-    top:50%; 
-    left:50%;
+    width: 150px;
+    margin: -20px -75px;
+    position: relative;
+    top: 50%;
+    left: 50%;
 }
 
 body>button>a {
@@ -87,17 +164,17 @@ body>button>a:hover {
     color: rgba(0, 0, 0, 0.623);
 }
 
-body > div.container {
+body>div.container {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-body > div.container > img {
+body>div.container>img {
     margin-top: 50px;
     margin-left: 3%;
     margin-right: 3%;
-    float:none;
+    float: none;
     width: 43%;
 }
 
@@ -158,7 +235,7 @@ body>div.servicios>div>img:nth-child(10) {
 
 .name {
     background-color: rgb(166, 221, 212);
-    color:black;
+    color: black;
     width: 300px;
 }
 
@@ -292,9 +369,9 @@ body>div.servicios>div>img:nth-child(10) {
 
 #navbarText>button>a {
     text-decoration: none;
-    color:rgb(75, 75, 75);
+    color: rgb(75, 75, 75);
 }
 
-#navbarText>button:hover >a {
+#navbarText>button:hover>a {
     color: white;
 }
