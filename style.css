@@ -53,10 +53,6 @@
     
 }
 
-/* #navbarText>div>ul:hover>li>a {
-    filter: blur(2px);
-} */
-
 #navbarText>div>ul>li>a:hover {
     transform: translate(-3px) scale(1.05);
     box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 4);
@@ -135,7 +131,6 @@ body>button {
     background-color: #75908a;
     border: none;
     margin-top: 40px;
-    /* height:20px;  */
     width: 150px;
     margin: -20px -75px;
     position: relative;
