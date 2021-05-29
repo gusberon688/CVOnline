@@ -1,0 +1,22 @@
+
+
+Recien me doy cuenta de la limitación de solo subir 10 archivos, y tengo 14,
+
+para no modificar mi codigo y quitar cosas, 
+
+les mando en este texto el link al repositorio de Github donde lo alojé.
+
+Para verlo en otros dispositivos lo publiqué tambien en Github Pages, asi que tambien paso el link.
+
+
+https://github.com/gusberon688/CVOnline.git
+
+
+https://gusberon688.github.io/CVOnline/#close
+
+
+Mil disculpas por cambiarles los tantos, pero no se me ocurrió una solución mejor.
+
+Saludos, y muchas gracias por todo.
+
+Gustavo.
